@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai_6a.css">
+</head>
+
+<body>
+    <div class="can_anh"  id="khung">
+        <div> <!--chen anh-->
+            <img src="img_bai6/Screenshot 2024-01-06 152624.png" width="300px" style="text-align: center;">
+        </div>
+
+        <h1 style="margin: 30px;">Registration Form</h1>
+        <form action="">
+            <p style="font-size: 15px;">Register your Jackson Electronics product here</p>
+
+            <label for="firtname" style="margin-right: 23px;">First Name:</label>
+            <input type="text" id="firtname" name="firtname" style="margin-left: 95px;">
+
+            <label for="lastname">Last Name:&nbsp;</label>
+            <input type="text" id="lastname" name="lastname" style="margin-right: 57px;"><br>
+        
+            <label for="address" style="margin-right: 106px;margin-left: 38px;">Address #1:</label>
+            <!--<input type="text" id="address" name="address" style="margin-top: 5px; margin-left: 18px;margin-right: 150px;margin-bottom: 5px;">-->
+            <input type="text" id="address" name="address" style="margin: 5px 187px 5px 10px"><br>
+
+            <label for="address" style="margin-right: 107px;margin-left: 38px;">Address #2:</label>
+            <!--<input type="text" id="address" name="address" style="margin-top: 5px; margin-left: 18px;margin-right: 150px;margin-bottom: 5px;">-->
+            <input type="text" id="address" name="address" style="margin: 5px 187px 5px 10px">
+
+            <label for="city" style="margin-right: 151px; margin-left: 17px;">City:</label>
+            <!--<input type="text" id="city" name="city" style="margin-left: 55px; margin-right: 230px;">-->
+            <input type="text" id="city" name="city" style="margin-left:10px;">
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+
+            <label for="zip">Zip:</label>
+            <input type="text" id="zip" name="zip" style="margin-right: 32px; margin-bottom: 5px;"><br>
+
+            <label for="country" style="margin-right: 137px; margin-left: 8px;">Country:</label>
+            <input type="text" id="country" name="country" value="United States" style="margin-right: 227px; margin-bottom: 5px;">
+            <hr />
+
+            <label for="product" style="margin-right: 139px; margin-left: 10px;">Product:</label>
+            <select name="product" id="product" style="margin-right: 245px; margin-bottom: 5px; margin-top: 5px;">
+                <option value="ScanMaster">ScanMaster</option>
+            </select><br>
+
+            <label for="date" style="margin-right: 85px; margin-left: 7px;">Date Purcharsed:</label>
+            <input type="text" id="date" name="date" value="United States" style="margin-right: 226px; margin-bottom: 5px;"><br>
+
+            <label for="serial" style="margin-right: 141px; margin-left: 10px;">Serial #:</label>
+            <input type="text" id="serial" name="serial" style="margin-right: 229px; margin-bottom: 5px;"><br>
+
+            <label for="user" style="margin-right: 125px; margin-left: 20px;">User for#:</label>
+            <input type="radio" id="user" name="user" value="Home" style="margin-right: 7px;">Home
+            <input type="radio" id="user" name="user" value="Educational Institution" style="margin-left: 68px;"> <span style="margin-right: 75px;"> Educational Institution</span><br>
+            <input type="radio" id="user" name="user" value="Business" style="margin-left: 60px;"> <span style="margin-right: 45px;">Business</span>
+            <input type="radio" id="user" name="user" value="Other"> <span style="margin-right: 25px;">Other</span><br>
+            <input type="radio" id="user" name="user" value="Government" style="margin-left: 31px;"> <span style="margin-right: 84px;">Government</span><br>
+
+            <label for="check" style="margin-left: 10px;margin-right: 5px;">System (check all the apply):</label>
+            <input type="checkbox" id="check" name="check" value="Windows"> <span style="margin-right: 40px;">Windows</span>
+            <input type="checkbox" id="check" name="check" value="UNIX"><span style="margin-right: 180px;">UNIX</span><br>
+            <input type="checkbox" id="check" name="check" value="Macintosh" style="margin-left: 147px;"> <span style="margin-right: 33px;">Macintosh</span>
+            <input type="checkbox" id="check" name="check" value="Other"><span style="margin-right: 121px;">Other</span>
+            
+            <hr /><br>
+
+            <label for="comment" style="margin-left: 46px; margin-right: 128px;">Comment:</label>
+            <input type="text" id="comment" name="comment" style="height: 100px; width: 343px; margin-right: 47px;margin-bottom: 5px;"><br>
+
+            <input type="submit" value="Click to register" style="margin-left: 50px;width: 120px;">
+            <input type="submit" value="Click to cancel" style="margin-right: 70px;width: 110px;margin-bottom: 2px;">
+        </form>
+    </div>
+</body>
+
+</html>

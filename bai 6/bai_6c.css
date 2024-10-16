@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#k1{
+    margin-top: 10px;
+    width: 300px;
+    height: 600px;
+    border: 1px solid;
+    padding: 5px 5px 5px 5px; /*chinh khoang cach giua noi dung va khung*/
+    border: 1px solid rgb(43, 155, 246);
+}
+
+#sub{
+    margin-left: 90px;
+}

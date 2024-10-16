@@ -1,0 +1,77 @@
+#khung{
+    border: 2px solid black;
+    width: 650px;
+    background-color: rgba(138, 203, 249, 0.977);
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    /*background-color: aqua;*/
+}
+
+img {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.61); /*bong do cua anh*/
+    border-radius: 15px; /*bo tron goc*/
+}
+
+/* .text {
+    text-align: center;
+    font-size: 24px;
+}*/
+
+div {
+    font-size: 16px;
+}
+
+.can_anh {
+    text-align: center;
+}
+
+#lastname{
+    width: 100px;
+    height: 20px;
+}
+
+#firtname{
+    width: 100px;
+    height: 20px;
+}
+
+#address{
+    width: 200px;
+    height: 20px;
+}
+
+#city{
+    width: 130px;
+    height: 20px;
+}
+
+#state{
+    width: 40px;
+    height: 20px;
+}
+
+#zip{
+    width: 70px;
+    height: 20px;
+}
+
+#country, #date, #serial{
+    width: 130px;
+    height: 20px;
+}
+
+#product{
+    width: 120px;
+    height: 20px;
+}
+
+hr{
+    border-bottom: 2px solid brown; /* Độ dày và màu sắc của đường gạch ngang */
+    display: inline-block;
+    width: 550px;
+}

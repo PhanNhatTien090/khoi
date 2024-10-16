@@ -1,0 +1,32 @@
+#khung {
+    border: solid rgb(222, 202, 202) 2px;
+}
+
+*{ /*căn đều kích thước table*/
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+table, tr, td, th {
+    border: 2px solid;
+}
+
+table {
+    width: 99%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*đưa table vào giữa trang web*/
+    font-size: 18px;
+}
+
+.edittd {
+    width: 50px;
+    height: 40px;
+    font-size: 20px;
+}

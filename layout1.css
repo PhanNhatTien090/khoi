@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#k1{
+    margin-top: 5px;
+    width: 980px;
+    height: 800px;
+    background-color: aquamarine;
+}
+
+header{
+    width: 100%; /*rong bang k1*/
+    height: 150px;
+    background-color: blueviolet;
+}
+
+section{
+    width: 100%; /*rong bang k1*/
+    height: 500px;
+    background-color: rgb(226, 122, 43);
+}
+
+footer{
+    width: 100%; /*rong bang k1*/
+    height: 150px;
+    background-color: rgb(43, 46, 226);
+}

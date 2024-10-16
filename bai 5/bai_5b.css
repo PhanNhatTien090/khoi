@@ -1,0 +1,40 @@
+#khung{
+    border: 2px silver solid;
+}
+
+table{
+    width: 99%;
+    height: 100%;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    border: 5px rgb(135, 20, 135) solid;
+    border-collapse: collapse;
+}
+
+*{
+    box-sizing: border-box;
+   margin: 0 auto;
+}
+
+tr, td, th{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+td{
+    vertical-align: top;
+}
+
+.editth{
+    width: 15px;
+    height: 10px;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*đưa table vào giữa trang web*/
+    font-size: 18px;
+}

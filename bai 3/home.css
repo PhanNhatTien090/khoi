@@ -1,0 +1,10 @@
+body{
+    margin: auto;
+    width: 51%;
+    padding: 0 5px 15px 5px;
+    border: 2px solid black;
+}
+
+.top{
+    margin: 1px;
+}

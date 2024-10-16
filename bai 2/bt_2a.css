@@ -1,0 +1,19 @@
+body{
+    margin: auto; /*căn giữa body theo chiều ngang*/
+    width: 60%;     /*chiều rộng body*/
+    padding: 0 5px 1px 5px; /*chỉnh khoảng cách giữa đường viền và body thay thứ tự: top right bottom left*/
+    border: 2px solid hwb(202 17% 7%); /*kích thước đường viền, loại đường viền và màu đường viền */
+    }
+
+    .top{
+        margin-top: 2px;
+    }
+
+    .bottom{
+        margin-bottom: 1px;
+    }
+
+    .font_pi{
+        font-size: 30px;
+        font-weight: normal;
+    }

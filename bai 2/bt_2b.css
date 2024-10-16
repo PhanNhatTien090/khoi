@@ -1,0 +1,30 @@
+body{
+    margin: auto; /*căn giữa body theo chiều ngang*/
+    width: 65%;     /*chiều rộng body*/
+    padding: 0 5px 5px 5px; /*chỉnh khoảng cách giữa đường viền và body thay thứ tự: top right bottom left*/
+    border: 2px solid hwb(202 17% 7%); /*kích thước đường viền, loại đường viền và màu đường viền */
+}
+.font {
+   font-family: "Curlz MT"; /*kiểu chữ*/
+   font-weight: normal; /*độ đậm nhạt của chữ*/
+   margin-bottom: 2px;
+   color: rgba(14, 176, 168, 0.885);
+}
+
+h1{
+    font-size: 50px; /*cỡ chữ*/
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61); /*tạo bóng đổ cho chữ theo thứ tự: bóng đổ về bên phải, đổ xuống, độ mờ của bóng, màu bóng*/
+}
+
+.icon{
+    font-size: 15px;
+}
+
+.lama{
+    list-style-type: upper-roman;
+    font-size: 15px;
+}
+
+.top{  /*điều chỉnh khoảng cách với dòng trên*/
+    margin-top: 2px;
+}

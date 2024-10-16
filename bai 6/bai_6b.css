@@ -1,0 +1,41 @@
+#k1{
+    width: 700px;
+    margin: 0 auto;
+    border: 2px solid rgb(118, 205, 236);
+    padding: 5px 3px 23px 3px;
+}
+
+input, textarea{
+    margin-top: 5px;
+}
+
+table{
+    width: 60%;
+    height: 90%;
+    margin-right: 50px;
+    margin-left: 0;
+    /*border: 5px rgb(135, 20, 135) solid;
+    border: 2px solid;
+    border-collapse: collapse;*/
+}
+/*tr, td{
+    border: 2px solid;
+}*/
+
+legend{
+    margin-left: 2px;
+}
+
+select{
+    width: 150px;
+}
+
+textarea{
+    margin-top: 2px;
+    margin-bottom: 1px;
+   display: block; /*sat le duoi table*/
+}
+
+span{
+    margin-left: 3px;
+}
